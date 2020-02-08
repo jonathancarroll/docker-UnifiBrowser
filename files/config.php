@@ -27,7 +27,7 @@ $controllers = [
     [
         'user'     => getenv('USER'), // the user name for access to the Unifi Controller
         'password' => getenv('PASSWORD'), // the password for access to the Unifi Controller
-        'url'      => getenv('UNIFIURL') . ":" . getenv('PORT'), // full url to the Unifi Controller, eg. 'https://22.22.11.11:8443'
+        'url'      => getenv('UNIFIURL'), // full url to the Unifi Controller, eg. 'https://22.22.11.11:8443'
         'name'     => getenv('DISPLAYNAME') // name for this controller which will be used in the dropdown menu
     ],
 #    [
